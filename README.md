@@ -2,6 +2,7 @@
 
 Creed helper is a helper website I made during my free time for a game I play. 
 
+[CreedHelper](http://creedhelper.byethost7.com)
 
 
 # How it works
@@ -15,4 +16,4 @@ The website connects to Pokemon Creed's apis, https://pokemoncreed.net/ajax/poke
 
 ## Box Rater:
 
-This allows the user to copy and paste there box and will calculate the value of the Pokemon
+This allows the user to copy and paste there box and will calculate the value of the Pokemon.
