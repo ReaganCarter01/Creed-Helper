@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Pokemon Creed Helper</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://kit.fontawesome.com/418d600537.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/boxrater.js"></script>
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+	</head>
+	<body>
+
+
+		<div id="header">
+			<div id="nav-wrapper">
+
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Homepage</a></li>
+						<li><a href="level-calculator.html">Level Calculator</a></li>
+						<li class="active"><a href="box-rater.html">Box Rater</a></li>
+						<li><a href="user-rater.html">User Rater</a></li>
+						<li><a href="tips.html">Tips</a></li>
+						<li><a href = "https://www.youtube.com/watch?v=6dZ9Dei53lE" target="_blank">Pokemon Creed Trailer</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container">
+
+				<div id="logo">
+					<h1><a href="#">Pokemon Creed Helper</a></h1>
+					<span class="tag">A Tool website for Pokemon Creed</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="main">
+			<div class="container">
+				<div class="row">
+
+					<div id="content" class="8u skel-cell-important">
+						<section>
+							<header>
+							 <h2>	Box Rater:</h2><br>
+								<textarea rows ="10"cols="80" id="myTextarea">  *****HOW TO USE****
+ShadowPichu ♂ - Level 5
+RainbowCaterpie ♂ - Level 5
+g.mankey
+GlitterDialga - Level 5
+CursedMaractus ♂ - Level 5
+LuminousBidoof ♀ - Level 5
+*****COPY AND PASTE YOUR BOX INTO HERE IT WILL START CALCULATING*****
+								</textarea>
+								<p>Read inside the box to understand how to use and formating.</p>
+								<p>Make sure to  to use <a  href="https://pokemoncreed.net/box/#/user=" target="_blank">Box Organise</a> for quick and easy use.  </p>
+
+								<p> <strong>NOTE:The box rater doesn't calculate off for unbased pokemon or do 3x rate for rare genders. </p></strong>
+
+								<button type="button" onclick="boxRater(),totalC()">Rate Box</button>
+								<p> </p>
+								<div class="row">
+								   <section class="6u">
+                                   <ul class="default">
+									<li>Cursed: </li>
+									<li id="cursed"> </li>
+									<li>Shadow: </li>
+									<li id="shadow"> </li>
+									<li>Rainbow: </li>
+									<li id="rainbow"> </li>
+									<li>Luminous: </li>
+									<li id="luminous"> </li>
+                                    <li> </li>
+									</section>
+									</ul>
+
+						           <section class="6u">
+									<ul class="default">
+									<li>Golden: </li>
+									<li id="golden"> </li>
+									<li>Glitter: </li>
+									<li id="glitter"> </li>
+									<li>Total: </li>
+									<li id="cost"> </li>
+                                    <li></li>
+									</ul>
+									</section>
+									</div>
+
+							</header>
+						</section>
+					</div>
+
+					<div id="sidebar" class="4u">
+						<section>
+							<header>
+								<h2>Other Pokemon(N/A)</h2>
+							</header>
+							<div class="row">
+								<section class="6u">
+									<ul class="default">
+										<li><a  href="https://pokemoncreed.net/forums/viewthread.php?id=177760" target="_blank">Rate List</a></li>
+										<li>RainbowMew</li>
+										<li>RainbowGiratina</li>
+										<li>RainbowSkorupi</li>
+										<li>RainbowReshiram</li>
+										<li>RainbowMakuhita</li>
+										<li>RainbowDratini</li>
+										<li>RainbowBeldum</li>
+										<li>RainbowRayquaza</li>
+										<li>RainbowWynaut</li>
+										<li>RainbowFeebas</li>
+										<li>RainbowPsyduck</li>
+										<li>RainbowHoundour</li>
+										<li>RainbowVulpix</li>
+										<li>RainbowGible</li>
+										<li>RainbowLarvitar</li>
+										<li>ShadowHeracross</li>
+										<li>ShadowFeebas</li>
+										<li>ShadowLapras</li>
+										<li>ShadowDratini</li>
+										<li>ShadowMakuhita</li>
+										<li>LuminousGiratina</li>
+
+									</ul>
+								</section>
+								<section class="6u">
+									<ul class="default">
+										<li><a  href="https://pokemoncreed.net/box_organise.php" target="_blank">Box Organise</a></li>
+										<li>CursedSuicune</li>
+										<li>CursedRaikou</li>
+										<li>CursedDarkrai</li>
+										<li>CursedMewtwo</li>
+										<li>CursedCranidos</li>
+										<li>CursedMagikarp</li>
+										<li>CursedDratini</li>
+										<li>CursedAipom</li>
+										<li>GoldenPichu</li>
+										<li>GoldenCresselia</li>
+										<li>GoldenLitleo</li>
+										<li>GoldenRalts</li>
+										<li>GoldenGardevoir</li>
+										<li>LuminousSnorunt</li>
+										<li>LuminousPichu</li>
+										<li>LuminousAbsol</li>
+										<li>LuminousCubone</li>
+										<li>LuminousZapdos</li>
+										<li>LuminousRayquaza</li>
+										<li>LuminousSuicuine</li>
+										<li>LuminousMew</li>
+									</ul>
+								</section>
+							</div>
+						</section>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	<div id="tweet">
+		<div class="container">
+			<section>
+				<blockquote>&ldquo;Everyone thinks of changing the world, but no one thinks of changing himself.&rdquo; - Leo Tolstoy</blockquote>
+			</section>
+		</div>
+	</div>
+
+
+	<div id="copyright">
+		<div class="container">
+			Desiged by Reagan Carter Images: <a href="http://unsplash.com" target="_blank">Unsplash</a>
+			Fonts: <a href="https://fontawesome.com/" target="_blank"> Awesome Fonts </a>
+		</div>
+	</div>
+
+	</body>
+</html>
