@@ -14,6 +14,14 @@ The website connects to Pokemon Creed's apis, https://pokemoncreed.net/ajax/poke
 
 # Features
 
+## Level Calulator:
+
+A simple calulator that converts levels to exp or exp to levels based on the level formula.
+
 ## Box Rater:
 
 This allows the user to copy and paste there box and will calculate the value of the Pokemon.
+
+## User Rater:
+
+This takes the users input and will find the given user and will calulate their box and will show the pokemon in the user's box as well
